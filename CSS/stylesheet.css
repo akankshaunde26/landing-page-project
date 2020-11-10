@@ -1,0 +1,164 @@
+img {
+    width: 100%;
+}
+
+h1 , h2 , h3{
+    font-family: 'Ubuntu' ,sans-serif;
+}
+
+.title-text {
+    font-family: 'Montserrat',sans-serif;
+    margin: 100px 300px 0 0;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.hero-image {
+    background-image:url("title-img.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
+
+/* Navigation Bar */
+
+#navigation-bar{
+    background-color: #393534;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand{
+    padding-right: 200px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+  /* About */
+
+#about {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#about p{
+    line-height: 2;
+    font-size: 1.25rem;
+}
+
+#about h2{
+    padding: 0 0 2%;
+}
+
+/* Photos */
+
+hr{
+    width: 300px;
+    color: thistle;
+}
+
+#photos {
+    background-color: #322E2B;
+    padding: 4%;
+    text-align: center;
+}
+
+.p1 {
+    width: 325px;
+    height: 325px;
+    padding: 3%;
+    border-radius: 50%;
+    border: double #fff0f0 20px;
+  }
+
+  /* Features */
+
+.icon {
+    color: #7d5a5a;
+}
+.icon:hover {
+    color: #442727;
+}
+
+.ambiance{
+    float: left;
+    margin-right: 20px;
+}
+
+.classics {
+    float: right;
+    margin-left: 30px;
+}
+
+.wifi{
+    float: left;
+    margin-right: 20px;
+}
+
+.feature-text{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Reservation */
+
+#reservation{
+    background-color: #322E2B;
+    color: white;
+    padding: 5% 30%;
+    text-align: auto;
+}
+
+#reservation h2 {
+    margin-bottom: 50px;
+}
+
+.info{
+    display: block;
+}
+
+input{
+    width: 70%;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 3% 20%;
+}
+
+.ficon{
+    margin: 1% 0.75%;
+}
+
+@media(max-width:1400px) {
+    .title-text{
+        font-size: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .p1{
+        margin: 10px 0;
+    }
+
+    #navigation-bar{
+        position: static;
+    }
+}
